@@ -1,0 +1,145 @@
+{
+	"id": "6f72b602-4693-8940-e9d9-13fb2aae6c32",
+	"name": "Lumen-REST",
+	"description": "Implementasi RESTful API menggunakan Lumen",
+	"order": [
+		"b5a31acb-c6e4-a245-97f9-0f8228644d91",
+		"6b508120-39f7-15ed-a4b0-cd231120e440",
+		"812b476e-e172-ad43-c05b-f3608572e612",
+		"f672d013-5be1-22cb-175c-a28c15a12ca5",
+		"8e30cc9d-c506-0cc5-fd0f-e0b0d2a1ef43"
+	],
+	"folders": [],
+	"timestamp": 1463141363026,
+	"owner": "332882",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "6b508120-39f7-15ed-a4b0-cd231120e440",
+			"headers": "",
+			"url": "http://localhost/lumen-rest/api/v1/article/31",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463188382826,
+			"name": "Article - Get By Id",
+			"description": "",
+			"collectionId": "6f72b602-4693-8940-e9d9-13fb2aae6c32",
+			"responses": []
+		},
+		{
+			"id": "812b476e-e172-ad43-c05b-f3608572e612",
+			"headers": "",
+			"url": "http://localhost/lumen-rest/api/v1/article",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "Title 1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "Title 2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463188385708,
+			"name": "Article - Insert",
+			"description": "",
+			"collectionId": "6f72b602-4693-8940-e9d9-13fb2aae6c32",
+			"responses": []
+		},
+		{
+			"id": "8e30cc9d-c506-0cc5-fd0f-e0b0d2a1ef43",
+			"headers": "",
+			"url": "http://localhost/lumen-rest/api/v1/article/5",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463188391575,
+			"name": "Article - Delete",
+			"description": "",
+			"collectionId": "6f72b602-4693-8940-e9d9-13fb2aae6c32",
+			"responses": []
+		},
+		{
+			"id": "b5a31acb-c6e4-a245-97f9-0f8228644d91",
+			"headers": "Name: Ahmad Arif\nage: 10\n",
+			"url": "http://localhost/lumen-rest/api/v1/article",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "Ahmad Arif",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463188378096,
+			"name": "Article - Get All",
+			"description": "",
+			"collectionId": "6f72b602-4693-8940-e9d9-13fb2aae6c32",
+			"responses": []
+		},
+		{
+			"id": "f672d013-5be1-22cb-175c-a28c15a12ca5",
+			"headers": "",
+			"url": "http://localhost/lumen-rest/api/v1/article/6",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "title",
+					"value": "Title 1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "Content 1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463188388615,
+			"name": "Article - Update",
+			"description": "",
+			"collectionId": "6f72b602-4693-8940-e9d9-13fb2aae6c32",
+			"responses": []
+		}
+	]
+}
